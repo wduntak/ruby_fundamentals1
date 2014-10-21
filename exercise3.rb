@@ -8,6 +8,8 @@ puts "How old are you?"
 
 age = gets.chomp
 
-birth = 2014 - age.to_i
+year = Time.new.year
 
-puts "You were born in #{birth}"
+birth = year - age.to_i
+
+puts "You were born in #{birth}."
