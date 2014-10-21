@@ -16,3 +16,7 @@ num2 = 7839
 result = num1 * num2
 
 puts "The result of #{num1} * #{num2} = #{result}"
+
+#Finding the value through booleans
+
+puts (true && false) || (false && true) || !(false && false) 
